@@ -1,0 +1,17 @@
+:root {
+    --main-color: #6C63FF;
+  }
+nav li a:hover{
+    transition: 0.5s ease-in-out color;
+    -webkit-transition: 0.5s ease-in-out color;
+    -moz-transition: 0.5s ease-in-out color;
+    -ms-transition: 0.5s ease-in-out color;
+    -o-transition: 0.5s ease-in-out color;
+    color: grey !important;
+}
+@media(min-width:768px)
+{
+    .coz{
+        width: 50% !important;
+    }
+}
